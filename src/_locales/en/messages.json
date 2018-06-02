@@ -1,0 +1,13 @@
+{
+    "extName": {
+        "message": "Translate Selected Text"
+    },
+    "extDescription": {
+        "message": "Translate selected text (Google)."
+    },
+
+
+    "translateTextMenu":{
+        "message": "Translate selected text"
+    }
+}
