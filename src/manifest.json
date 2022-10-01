@@ -3,7 +3,7 @@
     "description": "__MSG_extDescription__",
     "short_name": "translateselectedtext",
     "manifest_version": 2,
-    "version": "1.0",
+    "version": "1.0.2",
     "default_locale": "en",
 
     "permissions": ["<all_urls>", "contextMenus", "clipboardRead"],
@@ -24,11 +24,6 @@
             "css": ["simple-translate.css"],
             "js": ["simple-translate.js"]
         }
-    ],
-    "applications": {
-      "gecko": {
-        "id": "translateselectedtext@rty65tt.org",
-        "strict_min_version": "52.0"
-      }
-    }
+    ]
+
 }
