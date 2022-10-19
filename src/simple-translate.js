@@ -76,7 +76,7 @@ function showPanel(e) {
 
 function hidePanel(e) {
     //button.style.display = 'none';
-    if ((e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //パネル以外の場所をクリックでパネルを非表示
+    if ((e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) {
         panel.style.display = 'none';
         panel.innerHTML = "<p>...</p>";
     }
@@ -106,6 +106,7 @@ function panelPosition(e) {
     panel.style.maxHeight = "300px";
     panel.style.backgroundColor = "#aaaaaa";
     panel.getElementsByTagName("p")[0].style.fontSize = "16px";
+    panel.getElementsByTagName("p")[0].style.color = "#000";
 }
 
 
