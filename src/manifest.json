@@ -1,6 +1,7 @@
 {
     "name": "__MSG_extName__",
     "description": "__MSG_extDescription__",
+    "homepage_url": "https://github.com/rty65tt/firefox-addon-translateselectedtext",
     "short_name": "translateselectedtext",
     "manifest_version": 2,
     "version": "1.0.3",
@@ -14,6 +15,12 @@
         "32": "icons/32.png",
         "19": "icons/19.png"
     },
+    "applications": {
+        "gecko": {
+            "id": "translateselectedtext@rty65tt.org",
+            "strict_min_version": "48.0"
+    }
+  },
 
     "background": {
         "scripts": ["background.js"]
