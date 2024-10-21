@@ -1,6 +1,6 @@
 
+/*
 browser.contextMenus.removeAll();
-
 browser.contextMenus.create({
     id: "translateText",
     title: browser.i18n.getMessage("translateTextMenu"),
@@ -23,3 +23,4 @@ function translateTextMenu(info, tab) {
     )
 }
 
+*/

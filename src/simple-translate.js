@@ -24,6 +24,8 @@ function Select(e) {
         if ((selectionWord.length !== 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel"))
         {
             clickPosition = e;
+            translate();
+            showPanel(clickPosition);
         }
     }, 200);
 }
@@ -109,7 +111,7 @@ function panelPosition(e) {
     panel.getElementsByTagName("p")[0].style.color = "#000";
 }
 
-
+/*
 browser.runtime.onMessage.addListener(function (request) {
     switch (request.message) {
         case "showPanelFromMenu":
@@ -125,3 +127,4 @@ function showPanelFromMenu() {
     translate();
     showPanel(clickPosition);
 }
+*/
