@@ -3,7 +3,7 @@
         "message": "Translate Selected Text"
     },
     "extDescription": {
-        "message": "Translate selected text (Uses Google translate service)."
+        "message": "Translate selected text (Uses Google translate service). The translation language comes from the browser settings."
     },
 
     "translateTextMenu":{

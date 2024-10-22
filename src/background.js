@@ -1,5 +1,6 @@
 
 /*
+
 browser.contextMenus.removeAll();
 browser.contextMenus.create({
     id: "translateText",
